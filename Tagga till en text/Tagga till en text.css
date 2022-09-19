@@ -1,0 +1,102 @@
+body {
+    animation: changeBg 1s infinite
+   alternate linear;
+    
+}
+
+@keyframes changeBg{
+    0%{
+        background: #e27f77;
+    }
+    25%{
+        background: #60d394;
+    }
+    50%{
+        background: #aaf683;
+    }
+    75%{
+        background: #ffd97d;
+    }
+    100%{
+        background: #ff9b85;
+    }
+}
+  
+
+
+@media only screen and (max-width: 400px) {
+    .content{
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .content{
+    width: 90%;
+    height: 90%;
+    
+}
+}
+@media print and (min-resolution: 118dpcm) {
+    .content{
+    width: 90%;
+    height: 90%;
+    }
+
+ }
+
+h1 {
+    text-align: center;
+    color: #280fb6;
+}
+
+
+.content{
+    text-align: center;
+    
+}
+ 
+
+.table{
+
+    position: absolute;
+    top: 280px;
+    left: 0px;
+
+}
+
+.head {
+    height: 200px;
+    width: 204px;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+} 
+
+.head2 {
+    position: absolute;
+    top: 18px;
+    left: -100px;
+}
+
+.table2{
+    position: absolute;
+    top: 280px;
+    right: 0;
+}
+
+.movies{
+   font-size: 1 rem;
+    text-align: center;
+    box-sizing: content-box;
+    border: 1px;
+    margin-top: 20px;
+    margin-left: 610px;
+    border-style: solid;
+    width: 43.75em;
+    height: 12.5em;
+    border-radius: 100px 100px 100px 100px;
+    position: relative;
+    
+}
