@@ -21,7 +21,6 @@ b1{
     font-size: 20px;
     font-weight: bold;
     padding: 3px;
-    box-sizing: border-box;
     background-color: red;
     box-sizing: border-box;
 }
@@ -47,12 +46,19 @@ p3{
 .box{
     width: 100%;
     background-color: rgb(58, 241, 58);
+    margin-left: 20px;
+
 }
 
+.tags,.yes,p, h1, h2, h3{
+    margin-left: 20px;
+}
 
-p2{
+.yes{
     font-size: 20px;
     color: grey;
+    margin-left: 20px;
+
 }
 
 span1{
