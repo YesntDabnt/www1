@@ -4,6 +4,7 @@ body {
    font-family: Arial, Helvetica, sans-serif;
     margin-right: auto;
     margin-left: auto;
+    align-items: center ;
 }
 
 @keyframes changeBg{
@@ -90,8 +91,8 @@ h1 {
 
 .movies{
    font-size: 1 rem;
-    text-align: center;
-    box-sizing: content-box;
+    align-items: center;
+   box-sizing: content-box;
     border: 1px;
     margin-top: 20px;
     margin-left: 610px;
@@ -99,6 +100,6 @@ h1 {
     width: 43.75em;
     height: 12.5em;
     border-radius: 100px 100px 100px 100px;
-    position: relative;
+    position: absolute;
     
 }
