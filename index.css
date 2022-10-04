@@ -20,23 +20,28 @@ body{
 }
 
 
-.pokeball{
-    margin-left: -100px;
+pokeball{
+    margin-left: -10px;
+    position: flex;
+    margin-top: -80px;
     height: 100px;
     width: 100px;
     border-radius: 10%;
     cursor: pointer;
-    /* background:url(/övningar/openball.png); */
+    z-index: 3;
+    background-size: cover;
+    background:url(https://www.freeiconspng.com/thumbs/pokeball-png/pokeball-icon-download-23.png) no-repeat;  
     
 }
 
 /* this no work...why? */
-.pokeball:hover{
-        background-image: url(/övningar/openball.png) no-repeat;
-
+pokeball:hover{
+        background: url(/övningar/openball.png) no-repeat;
+        height: 100px;
+        width: 110px;
         background-size: cover;
+        display: inline;
 }
-
 
 .navbar ul li{
     list-style: none;
@@ -73,3 +78,37 @@ body{
 a{
     font-family:Arial, Helvetica, sans-serif;
 }
+.Card{
+    position: flex;
+    margin-bottom: -100px;
+}
+
+.img-bottom{
+   height: 100px;
+   width: 100px;
+   margin-left: auto;
+   position: flex;
+   z-index: -1000;
+   display: block;
+
+}
+
+.img-top{
+    height: 100px;
+    width: 100px;
+    margin-left: auto;
+    position: flex;
+    visibility: hidden;
+    z-index: 5000;
+    display: block;
+}
+
+.img-bottom:hover {
+    visibility: hidden;
+    transition: 0s;
+}
+
+ .img-bottom:hover .img-top {
+    visibility: visible;
+}
+
