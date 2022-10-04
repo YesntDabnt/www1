@@ -6,6 +6,7 @@ body{
     background-image: url(https://wallpaperaccess.com/full/343391.jpg);
     background-size: cover;
     background-position: center;
+
 }
 
 
@@ -20,18 +21,20 @@ body{
 
 
 .pokeball{
+    margin-left: -100px;
     height: 100px;
     width: 100px;
-    margin-left: -100px;
     border-radius: 10%;
     cursor: pointer;
+    /* background:url(/övningar/openball.png); */
+    
 }
 
 /* this no work...why? */
-.pokeball :hover{
-    color: rgb(209, 55, 55); 
-    background: black; 
-    box-shadow: 0 0 100px black; 
+.pokeball:hover{
+        background-image: url(/övningar/openball.png) no-repeat;
+
+        background-size: cover;
 }
 
 
@@ -65,4 +68,8 @@ body{
 
 .navbar ul li :hover::after{
     width: 100%;
+}
+
+a{
+    font-family:Arial, Helvetica, sans-serif;
 }
