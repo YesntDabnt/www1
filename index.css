@@ -20,21 +20,6 @@ body{
 }
 
 
-.pokeball{
-    margin-left: -10px;
-    position: flex;
-    margin-top: -80px;
-    height: 100px;
-    width: 100px;
-    border-radius: 10%;
-    cursor: pointer;
-    z-index: 3;
-    background-size: cover;
-    background:url(https://www.freeiconspng.com/thumbs/pokeball-png/pokeball-icon-download-23.png) no-repeat;  
-    
-}
-
-
 .navbar ul li{
     list-style: none;
     display: inline-block;
