@@ -20,7 +20,7 @@ body{
 }
 
 
-pokeball{
+.pokeball{
     margin-left: -10px;
     position: flex;
     margin-top: -80px;
@@ -34,14 +34,6 @@ pokeball{
     
 }
 
-/* this no work...why? */
-pokeball:hover{
-        background: url(/övningar/openball.png) no-repeat;
-        height: 100px;
-        width: 110px;
-        background-size: cover;
-        display: inline;
-}
 
 .navbar ul li{
     list-style: none;
@@ -78,34 +70,17 @@ pokeball:hover{
 a{
     font-family:Arial, Helvetica, sans-serif;
 }
-.Card{
-    position: flex;
-    margin-bottom: -100px;
-}
 
-.img-bottom{
+
+#image2{
    height: 100px;
    width: 100px;
-   margin-left: auto;
+   margin-left: -100px;
    position: flex;
    z-index: -1000;
    display: block;
    border-radius: 10%;
    cursor: pointer;
-  
-
+   
 }
 
-.img-top{
-    height: 100px;
-    width: 100px;
-    margin-left: auto;
-    position: absolute;
-    visibility: hidden;
-    z-index: 5000;
-    display: block;
-}
-
-.img-bottom:hover {
-    visibility: hidden;
-}
