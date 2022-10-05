@@ -7,5 +7,4 @@ function changeThing(){
         displayImage.src = 'https://www.freeiconspng.com/thumbs/pokeball-png/pokeball-icon-download-23.png'
     }
      
-
     }
