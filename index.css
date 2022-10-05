@@ -90,6 +90,9 @@ a{
    position: flex;
    z-index: -1000;
    display: block;
+   border-radius: 10%;
+   cursor: pointer;
+  
 
 }
 
@@ -97,7 +100,7 @@ a{
     height: 100px;
     width: 100px;
     margin-left: auto;
-    position: flex;
+    position: absolute;
     visibility: hidden;
     z-index: 5000;
     display: block;
@@ -105,10 +108,4 @@ a{
 
 .img-bottom:hover {
     visibility: hidden;
-    transition: 0s;
 }
-
- .img-bottom:hover .img-top {
-    visibility: visible;
-}
-
