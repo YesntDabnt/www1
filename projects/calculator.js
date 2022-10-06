@@ -51,13 +51,13 @@ class Calculator{
             default :
                 return
         }
+
         this.currentOp = computation
         this.operation = undefined
-        this.previousOp = ''
-        
+        this.previousOp = '' 
     }
 
-    undateDisplay(){
+    updateDisplay(){
         this.currentOpTextElement.innerText = this.currentOp
     }
 }
@@ -71,26 +71,27 @@ const allClearButton = document.querySelector('[data-all-clear]')
 const previousOpTextElement = document.querySelector('[data-previousOp]')
 const currentOpTextElement = document.querySelector('[data-currentOp]')
 
+
 const Calculator = new Calculator(previousOpTextElement,currentOpTextElement)
 
 numberButtons.forEach(button => {
     button.addEventListener('click',() => {
     Calculator.appendNumber(button.innerText)
-    Calculator.undateDisplay()
+    Calculator.updateDisplay()
 })
 })
 
 operationButtons.forEach(button => {
     button.addEventListener('click',() => {
     Calculator.appendNumber(button.innerText)
-    Calculator.undateDisplay()
+    Calculator.updateDisplay()
 })
 })
 
 equalsButton.forEach(button => {
     button.addEventListener('click',() => {
         Calculator.compute()
-        Calculator.undateDisplay()
+        Calculator.updateDisplay()
 })
 })
 
