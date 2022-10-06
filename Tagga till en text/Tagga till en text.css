@@ -59,8 +59,17 @@ h1 {
 .table{
     position: flex;
     margin-top: -78px;
-    margin-right: 0px;
+    margin-right: auto;
     margin-bottom: auto;
+}
+
+
+.table2{
+    position: flex;
+    margin-top: -250px;
+    margin-left: auto;
+    width: 20em;
+    height: 5em;
 }
 
 .head {
@@ -77,24 +86,17 @@ h1 {
     left: -100px;
 }
 
-.table2{
-    position: flex;
-    margin-top: -250px;
-    margin-left: 0;
-    width: 20em;
-    height: 5em;
-}
 
 .movies{
-   font-size: 1 rem;
-    align-items: center;
+   font-size: .05 rem;
+    align-content: center;
     border: 1px;    
-    margin-top: px;
-    margin-left: auto;
+    margin-top: 60px;
+    margin-left: 380px;
     margin-right: auto;
     border-style: solid;
     width: 35em;
     height: 12.5em;
     border-radius: 100px 100px 100px 100px;
-    position: relative;
+    position: flex;
 }
