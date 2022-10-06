@@ -17,11 +17,12 @@ def countdown(t) :
         t -= 1
         
     if t == 00:00
-    print('Lift off!')
+
+    print('And nothing happened...')
 
 
-t = input("Enter the time in minutes: ")
-s = input("Enter the time in seconds: ")
+t = input("Enter the minutes: ")
+s = input("Enter the seconds: ")
 
 
 countdown(int(t)*int(r)+int(s))
