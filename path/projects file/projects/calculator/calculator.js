@@ -14,7 +14,7 @@ class Calculator{
     delete(){
 
     }
-
+    
     appendNumber(number){
         if(number === '.' && this.currentOp.includes('.')) return
         this.currentOp = this.currentOp.toString() + number.toString()
