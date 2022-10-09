@@ -19,11 +19,9 @@ body{
     justify-content: space-between;
 }
 
-
 .links{
-    padding-right: 100px;
+    padding-left: 250px;
 }
-
 
 .navbar ul li{
     list-style: none;
