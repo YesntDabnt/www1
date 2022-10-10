@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    align-content: center;
+}
+
+body{
+    align-content: center;
+}
+
+.text1{
+  
+    color: yellow;
+    background: black;
+    text-align: center;
+    width:200px;
+    height:100px;
+    position: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.yes{
+    display: block;
+    position: relative;
+    margin: auto;
+    width: 40px;
+    text-align: center;
+}
