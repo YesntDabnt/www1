@@ -43,7 +43,6 @@ def maths(text,text2, text3, text4 ):
 maths(tal1, tal2, tal3, tal4)
 
 
-#code 3
 
 
 
