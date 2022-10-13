@@ -8,7 +8,7 @@ body{
 }
 
 .thing1{
-  
+
     color: yellow;
     background: black;
     text-align: center;
@@ -25,4 +25,57 @@ body{
     margin: auto;
     width: 40px;
     text-align: center;
+}
+
+.thing2{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    background: #eeeeee;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+
+}
+
+
+.thing3{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px dotted;
+    background: #e4fff3;
+    width: 400px;
+    height: 300px;
+
+}
+
+.ros {
+    position: relative;
+}
+
+h1{
+    height: 22%;
+    margin-top: 16%;
+}
+
+
+.thing4{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 10px dashed black;
+    background: #ffdc4c;
+    width: 500px;
+    height: 450px;
+}
+
+
+.röd{
+    margin-top: -50%;
+    margin-bottom: -50%;
+    box-shadow: black 6px 6px 8px 8px;
 }
