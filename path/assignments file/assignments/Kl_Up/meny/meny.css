@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: pink;
+}
+
+.huvudmeny{
+    text-decoration: none;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.undermeny{
+    display: none;
+}
+
+li{
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    color: #ba90da;
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+.huvudmeny:hover li .undermeny li a{
+    display: block;
+}
+
+.huvudmeny:hover{
+    background-color: aqua;
+
+}
