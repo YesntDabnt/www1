@@ -23,6 +23,12 @@ body{
     padding-left: 250px;
 }
 
+.home{
+    position: absolute;
+    margin-left: -60%;
+}
+
+
 .navbar ul li{
     list-style: none;
     display: inline-block;

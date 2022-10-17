@@ -10,6 +10,7 @@ body{
 }
 
 
+
 .navbar{
     width: 85%;
     margin: auto;
@@ -22,6 +23,11 @@ body{
 
 .links{
     padding-right: 100px;
+}
+
+.home{
+    position: absolute;
+    margin-left: -51%;
 }
 
 
