@@ -10,7 +10,7 @@ body{
 }
 /* laptop limit 1422 width 
    desktop limit 1920 width */
-   @media screen and (min-width: 1424px){
+@media screen and (min-width: 1424px){
     .home {
         position: absolute;
         margin-left: -1210px;
