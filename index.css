@@ -3,13 +3,13 @@
 body{
     width: 100%;
     height: 100vh;
-    background-image: url(https://wallpaperaccess.com/full/343391.jpg);
     background-size: cover;
     background-position: center;
 
 }
-
-@media screen and (min-width: 1080px){
+/* laptop limit 1422 width 
+   desktop limit 1920 width */
+@media screen and (min-width: 1422px){
     body{
     
         background-color: lightgreen;
