@@ -10,13 +10,20 @@ body{
 }
 /* laptop limit 1422 width 
    desktop limit 1920 width */
-   @media screen and (min-width: 1423px){
+   @media screen and (min-width: 1424px){
     .home {
+        position: absolute;
         margin-left: -1020px;
 
     }
 }
 
+@media screen and (max-width : 1423px) {
+    .home{
+        position: absolute;
+        margin-left: -38.5%;
+    }
+}
 
 .navbar{
     width: 85%;
@@ -29,11 +36,6 @@ body{
 
 .links{
     padding-left: 250px;
-}
-
-.home{
-    position: absolute;
-    margin-left: -38.5%;
 }
 
 
