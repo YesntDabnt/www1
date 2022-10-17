@@ -8,6 +8,14 @@ body{
     background-position: center;
 
 }
+/* laptop limit 1422 width 
+   desktop limit 1920 width */
+   @media screen and (min-width: 1423px){
+    .home {
+        margin-left: -1020px;
+
+    }
+}
 
 
 .navbar{
@@ -25,7 +33,7 @@ body{
 
 .home{
     position: absolute;
-    margin-left: -1020px;
+    margin-left: -38.5%;
 }
 
 
