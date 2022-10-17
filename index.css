@@ -9,13 +9,6 @@ body{
 
 }
 
-@media screen and (min-width: 1080px){
-    body{
-    
-        background-color: lightgreen;
-    }
-}
-
 .navbar{
     width: 85%;
     margin: auto;
