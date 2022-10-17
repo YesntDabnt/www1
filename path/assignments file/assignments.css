@@ -48,6 +48,8 @@ body{
 
 
 .navbar ul li a{
+    text-shadow: 0 0 0.5em hsl(0 0% 100% / 0.4),
+    0 0 0.45em currentColor;
     text-decoration: none;
     color: #943dd7;
     text-transform: uppercase;
