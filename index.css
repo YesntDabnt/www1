@@ -11,19 +11,19 @@ body{
 
 /* laptop limit 1422 width 
    desktop limit 1920 width */
-@media screen and (min-width: 1920px){
-    .home {
-        position: absolute;
-        margin-left: -1000px;
+ @media screen and (min-width: 1920px){
+    /* .home { */
+        /* position: absolute; */
+        /* margin-left: -1000px; */
 
-    }
+    /* } */
 }
 
 @media screen and (max-width : 1423px) {
-    .home{
-        position: absolute;
-        margin-left: -43%;
-    }
+    /* .home{ */
+        /* position: absolute; */
+        /* margin-left: -43%; */
+    /* } */
 }
 
 .navbar{
