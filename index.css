@@ -12,19 +12,18 @@ body{
 /* laptop limit 1422 width 
    desktop limit 1920 width */
  @media screen and (min-width: 1920px){
-    /* .home { */
-        /* position: absolute; */
-        /* margin-left: -1000px; */
-
-    /* } */
+    .urmom{
+        position: absolute;
+        left: 237px;
+        bottom: 547px;
+      
+    }
 }
 
 @media screen and (max-width : 1423px) {
-    /* .home{ */
-        /* position: absolute; */
-        /* margin-left: -43%; */
-    /* } */
+
 }
+  
 
 .navbar{
     width: 85%;
@@ -91,3 +90,12 @@ a{
    
 }
 
+
+.urmom{
+    width: 18px;
+    height: 12px;
+    background: #BBCAE0;
+    cursor: pointer;
+    border-radius: 150px;
+    /* visibility: hidden; */
+}
