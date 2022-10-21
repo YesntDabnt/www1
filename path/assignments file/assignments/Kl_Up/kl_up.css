@@ -61,7 +61,7 @@ body{
     content: '';
     height: 3px;
     width: 0;
-    background: #000;
+    background: #36454F;
     position: absolute;
     left: 0;
     bottom: -10px;
