@@ -13,7 +13,7 @@ body{
 @media screen and (min-width: 1424px){
     .home {
         position: absolute;
-        margin-left: -1250px;
+        left: 315px;
 
     }
 }
