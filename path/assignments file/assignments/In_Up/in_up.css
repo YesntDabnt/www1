@@ -3,7 +3,7 @@
 body{
     width: 100%;
     height: 100vh;
-    background-image: url(https://wallpaperaccess.com/full/343391.jpg);
+    background-image: url(https://images4.alphacoders.com/206/206268.jpg);
     background-size: cover;
     background-position: center;
 
@@ -50,7 +50,7 @@ body{
 
 .navbar ul li a{
     text-decoration: none;
-    color: #943dd7;
+    color: #ffff;
     text-transform: uppercase;
 
 }
@@ -60,7 +60,7 @@ body{
     content: '';
     height: 3px;
     width: 0;
-    background: #ba90da;
+    background: #ffff;
     position: absolute;
     left: 0;
     bottom: -10px;
