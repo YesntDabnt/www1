@@ -11,7 +11,7 @@ body{
 
 /* laptop limit 1422 width 
    desktop limit 1920 width */
- @media screen and (min-width: 1920px){
+ @media screen and (min-width: 1640px){
     .urmom{
         position: absolute;
         left: 237px;
