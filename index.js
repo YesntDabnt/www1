@@ -12,8 +12,11 @@ function changeThing(){
     }
 
 
+// how to make a div into a link onclick?
 
-// 
+
+ 
+
 
 
 

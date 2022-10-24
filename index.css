@@ -12,7 +12,7 @@ body{
 /* laptop limit 1422 width 
    desktop limit 1920 width */
  @media screen and (min-width: 1640px){
-    .yes{
+    .urmom{
         position: absolute;
         left: 237px;
         bottom: 547px;
@@ -91,15 +91,11 @@ a{
 }
 
 
-.yes{
+.urmom{
     width: 18px;
     height: 12px;
     background: #BBCAE0;
     cursor: pointer;
     border-radius: 150px;
     /* visibility: hidden; */
-}
-
-a{
-    display: block;
 }
