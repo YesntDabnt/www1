@@ -12,7 +12,7 @@ body{
 /* laptop limit 1422 width 
    desktop limit 1920 width */
  @media screen and (min-width: 1640px){
-    .urmom{
+    .blue{
         position: absolute;
         left: 237px;
         bottom: 547px;
@@ -91,7 +91,7 @@ a{
 }
 
 
-.urmom{
+.blue{
     width: 18px;
     height: 12px;
     background: #BBCAE0;
@@ -99,3 +99,5 @@ a{
     border-radius: 150px;
     /* visibility: hidden; */
 }
+
+
