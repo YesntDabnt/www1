@@ -26,7 +26,10 @@ body{
 }
 
 @media screen and (max-width : 1423px) {
-
+    .blue{
+        position: absolute;
+        left: 237;
+    }
 }
   
 
