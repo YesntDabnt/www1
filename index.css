@@ -12,16 +12,37 @@ body{
 /* laptop limit 1422 width 
    desktop limit 1920 width */
  @media screen and (min-width: 1640px){
-    .blue .blue2 .brown .green .pink .purpel .purpel2 .red .yellow{
-        position: absolute;
+     .blue{
+        position: relative;
+        left: 231px;
+        top: 223px;
     }
-
-    .blue{
-        left: 237px;
-        bottom: 547px;
-}
+    .green{
+        position: relative;
+        left: 440px;
+        top: 90px;
+    }
     .blue2{
-        left: 400px;
+        position: relative;
+        left: 684px;
+        top: 78px;
+    }
+    .brown{
+        position: relative;
+        left: 865px;
+        top: 145px;
+    }
+    .purpel{
+
+    }
+    .purpel2{
+
+    }
+    .yellow{
+
+    }
+    .pink{
+        
     }
 }
 
@@ -102,7 +123,6 @@ a{
 .blue{
     width: 18px;
     height: 12px;
-    background: #BBCAE0;
     cursor: pointer;
     border-radius: 150px;
     /* visibility: hidden; */
@@ -124,7 +144,7 @@ a{
     /* visibility: hidden; */
 }
 .blue2{
-    width: 18px;
+    width: 16px;
     height: 12px;
     background: #6e5db7;
     cursor: pointer;
