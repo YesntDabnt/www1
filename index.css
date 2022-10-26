@@ -37,14 +37,25 @@ body{
         left: 820px;
         top: 530px;
     }
+    .red{
+        position: relative;
+        left: 1050px;
+        top: 57px;
+    }
     .purpel2{
-
+        position: relative;
+        left: 1090px;
+        top: 530px;
     }
     .yellow{
-
+        position: relative;
+        left: 1300px;
     }
     .pink{
-        
+        position: relative;
+        left: 1559px;
+        top: 155px;
+
     }
 }
 
