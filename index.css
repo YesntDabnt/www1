@@ -33,7 +33,9 @@ body{
         top: 145px;
     }
     .purpel{
-
+        position: relative;
+        left: 820px;
+        top: 530px;
     }
     .purpel2{
 
@@ -136,7 +138,7 @@ a{
     /* visibility: hidden; */
 }
 .purpel{
-    width: 18px;
+    width: 15px;
     height: 12px;
     background: #b47f9f;
     cursor: pointer;
