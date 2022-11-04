@@ -30,7 +30,19 @@ body {
 }
   
 
-
+@media screen and (min-width : 1640px){
+    .movies{
+        position: relative;
+        justify-content: center;
+        margin-left: 700px;
+    }
+    .table{
+        position: relative;
+            
+        left: 1510px;
+    }
+    
+}
 
 @media only screen and (max-width: 1200px) {
     .content{
@@ -67,7 +79,6 @@ h1 {
 .table2{
     position: flex;
     margin-top: -250px;
-    margin-left: auto;
     width: 20em;
     height: 5em;
 }
@@ -92,7 +103,6 @@ h1 {
     align-content: center;
     border: 1px;    
     margin-top: 60px;
-    margin-left: 380px;
     margin-right: auto;
     border-style: solid;
     width: 35em;
