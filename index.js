@@ -1,4 +1,3 @@
-countdown = this.countdown
 function changeThing(){
 
     let displayImage = document.getElementById('image2')
@@ -12,7 +11,7 @@ function changeThing(){
     }
 
 
-// how to make a div into a link onclick?
+
 
 
  

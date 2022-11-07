@@ -12,11 +12,50 @@ body{
 /* laptop limit 1422 width 
    desktop limit 1920 width */
  @media screen and (min-width: 1640px){
-    .blue{
-        position: absolute;
-        left: 237px;
-        bottom: 547px;
-      
+     .blue{
+        position: relative;
+        left: 231px;
+        top: 223px;
+    }
+    .green{
+        position: relative;
+        left: 440px;
+        top: 90px;
+    }
+    .blue2{
+        position: relative;
+        left: 684px;
+        top: 78px;
+    }
+    .brown{
+        position: relative;
+        left: 865px;
+        top: 145px;
+    }
+    .purpel{
+        position: relative;
+        left: 820px;
+        top: 530px;
+    }
+    .red{
+        position: relative;
+        left: 1050px;
+        top: 57px;
+    }
+    .purpel2{
+        position: relative;
+        left: 1090px;
+        top: 530px;
+    }
+    .yellow{
+        position: relative;
+        left: 1300px;
+    }
+    .pink{
+        position: relative;
+        left: 1559px;
+        top: 155px;
+
     }
 }
 
@@ -97,7 +136,70 @@ a{
 .blue{
     width: 18px;
     height: 12px;
-    background: #BBCAE0;
+    cursor: pointer;
+    border-radius: 150px;
+    /* visibility: hidden; */
+}
+.green{
+    width: 18px;
+    height: 12px;
+    background: #c3c995;
+    cursor: pointer;
+    border-radius: 150px;
+    /* visibility: hidden; */
+}
+.purpel{
+    width: 15px;
+    height: 12px;
+    background: #b47f9f;
+    cursor: pointer;
+    border-radius: 150px;
+    /* visibility: hidden; */
+}
+.blue2{
+    width: 16px;
+    height: 12px;
+    background: #6e5db7;
+    cursor: pointer;
+    border-radius: 150px;
+    /* visibility: hidden; */
+}
+.brown{
+    width: 18px;
+    height: 12px;
+    background: #cd867b;
+    cursor: pointer;
+    border-radius: 150px;
+    /* visibility: hidden; */
+}
+.red{
+    width: 18px;
+    height: 12px;
+    background: #f4957c;
+    cursor: pointer;
+    border-radius: 150px;
+    /* visibility: hidden; */
+}
+.purpel2{
+    width: 18px;
+    height: 12px;
+    background: #edcbdb;
+    cursor: pointer;
+    border-radius: 150px;
+    /* visibility: hidden; */
+}
+.yellow{
+    width: 18px;
+    height: 12px;
+    background: #fddf9c;
+    cursor: pointer;
+    border-radius: 150px;
+    /* visibility: hidden; */
+}
+.pink{
+    width: 18px;
+    height: 12px;
+    background: #f4a5bb;
     cursor: pointer;
     border-radius: 150px;
     /* visibility: hidden; */
