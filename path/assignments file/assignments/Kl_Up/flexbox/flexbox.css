@@ -1,0 +1,25 @@
+.wrapper{
+    width: 1200px;
+    height: 580px;
+    border: 20px solid pink;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.box1{
+    width: 300px;
+    height: auto;
+    border: 5px solid gold;
+}
+.box2{
+    width: 300px;
+    height: auto;
+    border: 5px solid #ba90daad;
+}
+.box3{
+    width: 300px;
+    height: auto;
+    border: 5px solid lightblue;
+}
