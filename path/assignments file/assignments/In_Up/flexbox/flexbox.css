@@ -1,3 +1,171 @@
+
+
 body{
-    background-image: url();
+    background-image: url(https://wallup.net/wp-content/uploads/2016/05/24/143432-nature-Pokemon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
+
+.line1{
+    margin-top: 25px;
+    border: 2px solid;
+    width: 60%;
+    background-color: black;
+    margin: auto;
+    }
+
+.line2{
+    margin-top: 25px;
+    border: 1.5px solid;
+    width: 60%;
+    background-color: black;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.gods{
+    height: 100px;
+    width: 300px;
+    margin: auto;
+    
+}
+
+.god_trio{
+    display: flex;
+    margin-top: 90%;
+    
+}
+
+.boxes1{
+    margin-top: 9%;
+}
+
+.boxes2{
+    margin-top: 13%;
+}
+
+.boxes3{
+    margin-top: 12%;
+}
+
+.boxes1, .boxes2 ,.boxes3{
+    position: flex;
+    display: flex;
+}
+
+.ba{
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    height: auto;
+    color: white;
+    background: rgb(63, 63, 63);
+    opacity: 0.8;
+    border: 0px solid;
+    box-shadow: 10px 10px rgb(0, 0, 0);
+}
+.bd{
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    color: white;
+    background: rgb(63, 63, 63);
+    opacity: 0.8;
+    box-shadow: 10px 10px rgb(0, 0, 0);
+
+}
+.bp{
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    color: white;
+    background: rgb(63, 63, 63);
+    opacity: 0.8;
+    box-shadow: 10px 10px rgb(0, 0, 0);
+
+}
+.bg{
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    color: white;
+    background: rgb(63, 63, 63);
+    opacity: 0.8;
+    box-shadow: 10px 10px rgb(0, 0, 0);
+
+}
+.bm{
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    color: white;
+    background: rgb(63, 63, 63);
+    opacity: 0.8;
+    box-shadow: 10px 10px rgb(0, 0, 0);
+
+}
+
+.theone{
+    margin-left: 15%;
+}
+
+.arceus{
+    margin-top: 25px;
+    opacity: 0.7;
+}
+
+.palkia{
+    margin-left: 150%;
+    opacity: 0.9;
+    margin: auto;
+}
+.pl{
+    margin-left: 100%;
+}
+
+.dialga{
+    
+    opacity: 0.9;
+    margin: auto;
+}
+
+.giratina{
+   
+    opacity: 0.9;
+    margin: auto;    
+}
+
+.mew{
+    opacity: 0.9;
+    margin: auto;
+}
+
+.mew2{
+    margin-top: 70%;
+    margin-left: 12%;
+}
+
+
+h2{
+    color: blue;
+    border: 5px solid;
+    border-radius: 50%;
+    border-color: purple;
+    background: pink;
+}
+
+span{
+    font-size: 35px;
+    color: black;
+}
+
+
