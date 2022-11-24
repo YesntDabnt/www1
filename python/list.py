@@ -4,7 +4,7 @@ import os
 
 
 a = [0,1,2,3,4,5]
-val = int(input("vilket val?\n"))
+
 
 
 
@@ -16,12 +16,15 @@ def main1(text) :
     print("5. ta bort specifik sak i listan")
     print("6. byt ordning på saker i listan")
     print("7. avsluta programmet")
-    print(val)
+    val = int(input("vilket val?\n"))
+    
 
     if val == 1 :
+        print(a)
         a.append(input(""))
         print(a)
     elif val == 2 :
+        print(a)
         a.pop(0)
         print(a)
     elif val == 3 :
@@ -47,8 +50,10 @@ def main1(text) :
     elif val == 7 :
         print("Bye Bye")
         os._exit(1)
-    elif val < 7 :
+    elif val > 7 :
         print("Fel tal, try again")
+    
+
 
         
 
