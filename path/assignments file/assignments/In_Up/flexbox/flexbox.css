@@ -36,8 +36,10 @@ h1{
 }
 
 .god_trio{
+    margin: auto;
     display: flex;
-    margin-top: 90%;
+    margin-top: 67%;
+
     
 }
 
@@ -124,29 +126,28 @@ h1{
 }
 
 .palkia{
-    margin-left: 150%;
+    margin-left: -330px;
     opacity: 0.9;
-    margin: auto;
 }
 .pl{
     margin-left: 100%;
 }
 
 .dialga{
-    
+    margin-left: -80px;
     opacity: 0.9;
-    margin: auto;
 }
 
 .giratina{
-   
+   margin-left: 270px;
     opacity: 0.9;
-    margin: auto;    
+    margin-top: -10px;
 }
 
 .mew{
     opacity: 0.9;
-    margin: auto;
+    margin-left: 14px;
+    margin-top: -24px;
 }
 
 .mew2{
