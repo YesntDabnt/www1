@@ -8,10 +8,6 @@ body{
 }
 
 
-
-
-
-
 .line1{
     margin-top: 25px;
     border: 2px solid;
@@ -29,15 +25,103 @@ body{
 }
 
 h1{
+    color: white;
     text-align: center;
     font-size: 25px;
+}
+
+@media screen and (max-width: 1423px){
+
+    .theone{
+        margin-left: 15%;
+    }
+    
+    .arceus{
+        margin-top: 25px;
+        opacity: 0.7;
+    }
+    
+    .palkia{
+        margin-left: -330px;
+        opacity: 0.8;
+    }
+    .pl{
+        margin-left: 100%;
+    }
+    
+    .dialga{
+        margin-left: -80px;
+        opacity: 0.8;
+    }
+    
+    .giratina{
+       margin-left: 270px;
+        opacity: 0.8;
+        margin-top: -10px;
+    }
+    
+    .mew{
+        opacity: 0.8;
+        margin-left: 14px;
+        margin-top: -24px;
+    }
+    
+    .mew2{
+        margin-top: 75%;
+        margin-left: 12%;
+    }
+    
+}
+
+@media screen and (min-width: 1640px){
+
+    .theone{
+        margin-left: 15%;
+    }
+    
+    .arceus{
+        margin-top: 25px;
+        opacity: 0.7;
+    }
+    
+    .palkia{
+        margin-left: -330px;
+        opacity: 0.8;
+    }
+    .pl{
+        margin-left: 100%;
+    }
+    
+    .dialga{
+        margin-left: -80px;
+        opacity: 0.8;
+    }
+    
+    .giratina{
+       margin-left: 270px;
+        opacity: 0.8;
+        margin-top: -10px;
+    }
+    
+    .mew{
+        opacity: 0.8;
+        margin-left: 14px;
+        margin-top: -24px;
+    }
+    
+    .mew2{
+        margin-top: 75%;
+        margin-left: 12%;
+    }
+    
+    
 }
 
 .gods{
     height: 100px;
     width: 300px;
     margin: auto;
-    
+
 }
 
 .god_trio{
@@ -45,7 +129,6 @@ h1{
     display: flex;
     margin-top: 67%;
 
-    
 }
 
 .boxes1{
@@ -120,46 +203,6 @@ h1{
     box-shadow: 10px 10px rgb(0, 0, 0);
 
 }
-
-.theone{
-    margin-left: 15%;
-}
-
-.arceus{
-    margin-top: 25px;
-    opacity: 0.7;
-}
-
-.palkia{
-    margin-left: -330px;
-    opacity: 0.9;
-}
-.pl{
-    margin-left: 100%;
-}
-
-.dialga{
-    margin-left: -80px;
-    opacity: 0.9;
-}
-
-.giratina{
-   margin-left: 270px;
-    opacity: 0.9;
-    margin-top: -10px;
-}
-
-.mew{
-    opacity: 0.9;
-    margin-left: 14px;
-    margin-top: -24px;
-}
-
-.mew2{
-    margin-top: 75%;
-    margin-left: 12%;
-}
-
 
 h2{
     color: blue;
